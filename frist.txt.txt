@@ -1,0 +1,21 @@
+//write a cpp program addition and multiplication of 3 numbers
+#include<iostream.h>
+#include<conio.h>
+ void main()
+{
+ int a,b,c,r;
+ clrscr();
+ cout<<"\n\n enter any three numbers:";
+ cin>>a>>b>>c;
+ r=a+b+c;
+ cout<<"\n\n addition of "<<a;
+ cout<<" "<<b;
+ cout<<"and"<<c;
+ cout<<"=" <<r;
+ r=a*b*c;
+ cout<<"\n multiplication of "<<a;
+ cout<<""<<b;
+ cout<<"and"<<c;
+ cout<<"="<<r;
+ getch();
+ }
